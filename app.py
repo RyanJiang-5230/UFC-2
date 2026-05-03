@@ -10,7 +10,7 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.metrics import mean_squared_error
 
 
-df1 = pd.read_csv("ufcdat/UFC dataset/Fighter stats/fighter_stats.csv")
+df1 = pd.read_csv("fighter_stats.csv")
 
 def choose_fighter(age):
     filtered_fighters = df1[df1['age'] == float(age)]
